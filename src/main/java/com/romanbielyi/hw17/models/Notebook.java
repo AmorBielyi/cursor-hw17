@@ -15,7 +15,7 @@ public class Notebook {
     private String model;
     private String manufacturer;
     private String cpu;
-    private String caseType;
+    private String caseColor;
     private int ram;
     private int price;
     private boolean refurbished;
@@ -30,7 +30,7 @@ public class Notebook {
     public Notebook(String model,
                     String manufacturer,
                     String cpu,
-                    String caseType,
+                    String caseColor,
                     int ram,
                     int price,
                     boolean refurbished,
@@ -38,7 +38,7 @@ public class Notebook {
         this.model = model;
         this.manufacturer = manufacturer;
         this.cpu = cpu;
-        this.caseType = caseType;
+        this.caseColor = caseColor;
         this.ram = ram;
         this.price = price;
         this.refurbished = refurbished;
